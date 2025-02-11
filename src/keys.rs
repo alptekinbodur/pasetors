@@ -92,7 +92,7 @@ impl<V> Drop for AsymmetricSecretKey<V> {
 
 impl<V> Debug for AsymmetricSecretKey<V> {
     fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {
-        write!(f, "AsymmetricSecretKey {{***OMITTED***}}")
+       write!(f, "AsymmetricSecretKey {{***OMITTED***}}")
     }
 }
 
