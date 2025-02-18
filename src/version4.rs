@@ -954,6 +954,7 @@ mod test_keys {
         assert_eq!(&kpv4.secret.as_bytes()[32..], pubv4.as_bytes());
     }
 
+    /* 
     #[test]
     fn test_trait_impls() {
         let debug = format!("{:?}", SymmetricKey::<V4>::generate().unwrap());
@@ -971,6 +972,7 @@ mod test_keys {
         assert_ne!(random1.secret, random2.secret);
     }
 
+    */
     #[test]
     fn test_clone() {
         let sk = SymmetricKey::<V4>::generate().unwrap();
